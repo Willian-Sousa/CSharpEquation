@@ -44,27 +44,34 @@
             this.btnCalc = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.panResultado = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lblTipo = new System.Windows.Forms.Label();
+            this.lblRaizDelta = new System.Windows.Forms.Label();
+            this.lblDeltaRes = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.lblX1 = new System.Windows.Forms.Label();
             this.lblX2 = new System.Windows.Forms.Label();
-            this.lblDeltaRes = new System.Windows.Forms.Label();
-            this.lblRaizDelta = new System.Windows.Forms.Label();
-            this.lblTipo = new System.Windows.Forms.Label();
+            this.lblX1 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panX = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnCalcX = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numC)).BeginInit();
             this.panResultado.SuspendLayout();
+            this.panX.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 25);
+            this.label1.Location = new System.Drawing.Point(27, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(394, 24);
             this.label1.TabIndex = 0;
@@ -170,12 +177,11 @@
             // 
             // lblB
             // 
-            this.lblB.AutoSize = true;
             this.lblB.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblB.ForeColor = System.Drawing.Color.Red;
-            this.lblB.Location = new System.Drawing.Point(91, 142);
+            this.lblB.Location = new System.Drawing.Point(79, 142);
             this.lblB.Name = "lblB";
-            this.lblB.Size = new System.Drawing.Size(25, 24);
+            this.lblB.Size = new System.Drawing.Size(35, 24);
             this.lblB.TabIndex = 8;
             this.lblB.Text = "B";
             // 
@@ -224,7 +230,7 @@
             // btnCalc
             // 
             this.btnCalc.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalc.Location = new System.Drawing.Point(31, 195);
+            this.btnCalc.Location = new System.Drawing.Point(255, 142);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(118, 23);
             this.btnCalc.TabIndex = 13;
@@ -236,7 +242,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(34, 235);
+            this.label11.Location = new System.Drawing.Point(34, 175);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(124, 24);
             this.label11.TabIndex = 14;
@@ -247,96 +253,21 @@
             this.panResultado.Controls.Add(this.lblTipo);
             this.panResultado.Controls.Add(this.lblRaizDelta);
             this.panResultado.Controls.Add(this.lblDeltaRes);
-            this.panResultado.Controls.Add(this.lblX2);
-            this.panResultado.Controls.Add(this.lblX1);
-            this.panResultado.Controls.Add(this.label16);
-            this.panResultado.Controls.Add(this.label15);
             this.panResultado.Controls.Add(this.label14);
             this.panResultado.Controls.Add(this.label13);
             this.panResultado.Controls.Add(this.label12);
-            this.panResultado.Location = new System.Drawing.Point(31, 277);
+            this.panResultado.Location = new System.Drawing.Point(31, 202);
             this.panResultado.Name = "panResultado";
-            this.panResultado.Size = new System.Drawing.Size(435, 176);
+            this.panResultado.Size = new System.Drawing.Size(363, 122);
             this.panResultado.TabIndex = 15;
             // 
-            // label16
+            // lblTipo
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(30, 149);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(88, 16);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "Valor do x2 = ";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(30, 119);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(88, 16);
-            this.label15.TabIndex = 3;
-            this.label15.Text = "Valor do x1 = ";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(4, 73);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(95, 16);
-            this.label14.TabIndex = 2;
-            this.label14.Text = "Tipo de Raís = ";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(4, 42);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(79, 16);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Raíz de Δ = ";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(4, 10);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(82, 16);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Valor de Δ = ";
-            // 
-            // lblX1
-            // 
-            this.lblX1.AutoSize = true;
-            this.lblX1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblX1.Location = new System.Drawing.Point(124, 119);
-            this.lblX1.Name = "lblX1";
-            this.lblX1.Size = new System.Drawing.Size(14, 16);
-            this.lblX1.TabIndex = 5;
-            this.lblX1.Text = "0";
-            // 
-            // lblX2
-            // 
-            this.lblX2.AutoSize = true;
-            this.lblX2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblX2.Location = new System.Drawing.Point(124, 149);
-            this.lblX2.Name = "lblX2";
-            this.lblX2.Size = new System.Drawing.Size(14, 16);
-            this.lblX2.TabIndex = 6;
-            this.lblX2.Text = "0";
-            // 
-            // lblDeltaRes
-            // 
-            this.lblDeltaRes.AutoSize = true;
-            this.lblDeltaRes.Location = new System.Drawing.Point(109, 13);
-            this.lblDeltaRes.Name = "lblDeltaRes";
-            this.lblDeltaRes.Size = new System.Drawing.Size(25, 13);
-            this.lblDeltaRes.TabIndex = 7;
-            this.lblDeltaRes.Text = "------";
+            this.lblTipo.Location = new System.Drawing.Point(117, 73);
+            this.lblTipo.Name = "lblTipo";
+            this.lblTipo.Size = new System.Drawing.Size(233, 44);
+            this.lblTipo.TabIndex = 9;
+            this.lblTipo.Text = "------";
             // 
             // lblRaizDelta
             // 
@@ -347,19 +278,164 @@
             this.lblRaizDelta.TabIndex = 8;
             this.lblRaizDelta.Text = "------";
             // 
-            // lblTipo
+            // lblDeltaRes
             // 
-            this.lblTipo.Location = new System.Drawing.Point(109, 75);
-            this.lblTipo.Name = "lblTipo";
-            this.lblTipo.Size = new System.Drawing.Size(323, 44);
-            this.lblTipo.TabIndex = 9;
-            this.lblTipo.Text = "------";
+            this.lblDeltaRes.AutoSize = true;
+            this.lblDeltaRes.Location = new System.Drawing.Point(109, 13);
+            this.lblDeltaRes.Name = "lblDeltaRes";
+            this.lblDeltaRes.Size = new System.Drawing.Size(25, 13);
+            this.lblDeltaRes.TabIndex = 7;
+            this.lblDeltaRes.Text = "------";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(4, 73);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(112, 18);
+            this.label14.TabIndex = 2;
+            this.label14.Text = "Tipo de Raís = ";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(7, 42);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(91, 18);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "Raíz de Δ = ";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(4, 10);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(97, 18);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Valor de Δ = ";
+            // 
+            // lblX2
+            // 
+            this.lblX2.AutoSize = true;
+            this.lblX2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblX2.Location = new System.Drawing.Point(288, 84);
+            this.lblX2.Name = "lblX2";
+            this.lblX2.Size = new System.Drawing.Size(14, 16);
+            this.lblX2.TabIndex = 6;
+            this.lblX2.Text = "0";
+            // 
+            // lblX1
+            // 
+            this.lblX1.AutoSize = true;
+            this.lblX1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblX1.Location = new System.Drawing.Point(288, 54);
+            this.lblX1.Name = "lblX1";
+            this.lblX1.Size = new System.Drawing.Size(14, 16);
+            this.lblX1.TabIndex = 5;
+            this.lblX1.Text = "0";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(194, 84);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(88, 16);
+            this.label16.TabIndex = 4;
+            this.label16.Text = "Valor do x2 = ";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(194, 54);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(88, 16);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "Valor do x1 = ";
+            // 
+            // panX
+            // 
+            this.panX.Controls.Add(this.label6);
+            this.panX.Controls.Add(this.btnCalcX);
+            this.panX.Controls.Add(this.label15);
+            this.panX.Controls.Add(this.label16);
+            this.panX.Controls.Add(this.lblX1);
+            this.panX.Controls.Add(this.lblX2);
+            this.panX.Location = new System.Drawing.Point(31, 341);
+            this.panX.Name = "panX";
+            this.panX.Size = new System.Drawing.Size(363, 124);
+            this.panX.TabIndex = 16;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 11);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(174, 24);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Calcular X1 e X2";
+            // 
+            // btnCalcX
+            // 
+            this.btnCalcX.Location = new System.Drawing.Point(34, 65);
+            this.btnCalcX.Name = "btnCalcX";
+            this.btnCalcX.Size = new System.Drawing.Size(111, 23);
+            this.btnCalcX.TabIndex = 0;
+            this.btnCalcX.Text = "Calcular X1 e X2";
+            this.btnCalcX.UseVisualStyleBackColor = true;
+            this.btnCalcX.Click += new System.EventHandler(this.btnCalcX_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(41, 56);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(20, 19);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "A";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(136, 56);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(21, 19);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "B";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.White;
+            this.label17.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Red;
+            this.label17.Location = new System.Drawing.Point(238, 56);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(21, 19);
+            this.label17.TabIndex = 19;
+            this.label17.Text = "C";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 477);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.panX);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.panResultado);
             this.Controls.Add(this.btnCalc);
@@ -382,6 +458,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.numC)).EndInit();
             this.panResultado.ResumeLayout(false);
             this.panResultado.PerformLayout();
+            this.panX.ResumeLayout(false);
+            this.panX.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -415,6 +493,12 @@
         private System.Windows.Forms.Label lblTipo;
         private System.Windows.Forms.Label lblRaizDelta;
         private System.Windows.Forms.Label lblDeltaRes;
+        private System.Windows.Forms.Panel panX;
+        private System.Windows.Forms.Button btnCalcX;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label17;
     }
 }
 
