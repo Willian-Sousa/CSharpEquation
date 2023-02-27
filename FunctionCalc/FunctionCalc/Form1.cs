@@ -75,13 +75,13 @@ namespace FunctionCalc
         {
 
             //Cálculo de x1 e x2 (-b² +- raiz de delta / 2 . a)
-            x1 = (-b + Math.Sqrt(delta)) / (2 * a);
-            x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+            x1 = (b * (-1) + Math.Sqrt(delta)) / (2 * a);
+            x2 = (b * (-1) - Math.Sqrt(delta)) / (2 * a);
 
             //Saída dos resultados dos cálculos de x1 e x2
             this.lblX1.Text = String.Format("{0:0.0}", x1);
             this.lblX2.Text = String.Format("{0:0.0}", x2);
-            
+
         }
 
         private void numA_ValueChanged(object sender, EventArgs e)

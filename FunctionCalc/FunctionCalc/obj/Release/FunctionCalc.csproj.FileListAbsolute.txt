@@ -1,0 +1,11 @@
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\bin\Release\FunctionCalc.exe.config
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\bin\Release\FunctionCalc.exe
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\bin\Release\FunctionCalc.pdb
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Release\FunctionCalc.csproj.AssemblyReference.cache
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Release\FunctionCalc.csproj.SuggestedBindingRedirects.cache
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Release\FunctionCalc.Form1.resources
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Release\FunctionCalc.Properties.Resources.resources
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Release\FunctionCalc.csproj.GenerateResource.cache
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Release\FunctionCalc.csproj.CoreCompileInputs.cache
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Release\FunctionCalc.exe
+D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Release\FunctionCalc.pdb
