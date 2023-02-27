@@ -1,2 +1,2 @@
-# Atv2ProgCom
- Atividade 2 da disciplina de Programação Comercial
+# Equação de segundo grau em C#
+ Exemplo de lógica para resolver equações de segundo grau.
