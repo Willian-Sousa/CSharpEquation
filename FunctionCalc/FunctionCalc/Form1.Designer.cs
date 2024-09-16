@@ -95,7 +95,7 @@
             this.numA.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.numA.Size = new System.Drawing.Size(48, 20);
             this.numA.TabIndex = 1;
-            this.numA.ValueChanged += new System.EventHandler(this.numA_ValueChanged);
+            this.numA.ValueChanged += new System.EventHandler(this.NumA_ValueChanged);
             // 
             // label2
             // 
@@ -124,7 +124,7 @@
             this.numB.Name = "numB";
             this.numB.Size = new System.Drawing.Size(56, 20);
             this.numB.TabIndex = 3;
-            this.numB.ValueChanged += new System.EventHandler(this.numB_ValueChanged);
+            this.numB.ValueChanged += new System.EventHandler(this.NumB_ValueChanged);
             // 
             // label3
             // 
@@ -153,7 +153,7 @@
             this.numC.Name = "numC";
             this.numC.Size = new System.Drawing.Size(57, 20);
             this.numC.TabIndex = 5;
-            this.numC.ValueChanged += new System.EventHandler(this.numC_ValueChanged);
+            this.numC.ValueChanged += new System.EventHandler(this.NumC_ValueChanged);
             // 
             // label4
             // 
@@ -236,7 +236,7 @@
             this.btnCalc.TabIndex = 13;
             this.btnCalc.Text = "Calcular Δ";
             this.btnCalc.UseVisualStyleBackColor = true;
-            this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
+            this.btnCalc.Click += new System.EventHandler(this.BtnCalc_Click);
             // 
             // label11
             // 
@@ -388,7 +388,7 @@
             this.btnCalcX.TabIndex = 0;
             this.btnCalcX.Text = "Calcular X1 e X2";
             this.btnCalcX.UseVisualStyleBackColor = true;
-            this.btnCalcX.Click += new System.EventHandler(this.btnCalcX_Click);
+            this.btnCalcX.Click += new System.EventHandler(this.BtnCalcX_Click);
             // 
             // label8
             // 
@@ -431,7 +431,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(436, 477);
+            this.ClientSize = new System.Drawing.Size(433, 480);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label8);

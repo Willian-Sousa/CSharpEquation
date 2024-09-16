@@ -23,7 +23,7 @@ namespace FunctionCalc
         double delta, raizDelta, x1, x2;
         int a, b, c;
 
-        private void btnCalc_Click(object sender, EventArgs e) // Primeiro método para cálculo de Delta e raíz de Delta
+        private void BtnCalc_Click(object sender, EventArgs e) // Primeiro método para cálculo de Delta e raíz de Delta
         {
 
             //Zerar variáveis x1 e x2 para nova consulta
@@ -71,7 +71,7 @@ namespace FunctionCalc
 
         }
 
-        private void btnCalcX_Click(object sender, EventArgs e) //Segundo método para cálculo de X1 e X2
+        private void BtnCalcX_Click(object sender, EventArgs e) //Segundo método para cálculo de X1 e X2
         {
 
             //Cálculo de x1 e x2 (-b² +- raiz de delta / 2 . a)
@@ -84,19 +84,19 @@ namespace FunctionCalc
 
         }
 
-        private void numA_ValueChanged(object sender, EventArgs e)
+        private void NumA_ValueChanged(object sender, EventArgs e)
         {
             //Mudar texto da equação de acordo com a mudança do spinner A
             this.lblA.Text = Convert.ToString(numA.Value);
         }
 
-        private void numB_ValueChanged(object sender, EventArgs e)
+        private void NumB_ValueChanged(object sender, EventArgs e)
         {
             //Mudar texto da equação de acordo com a mudança do spinner B
             this.lblB.Text = Convert.ToString(numB.Value);
         }
 
-        private void numC_ValueChanged(object sender, EventArgs e)
+        private void NumC_ValueChanged(object sender, EventArgs e)
         {
             //Mudar texto da equação de acordo com a mudança do spinner C
             this.lblC.Text = Convert.ToString(numC.Value);

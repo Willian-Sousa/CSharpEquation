@@ -2,7 +2,6 @@ D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\bin\Debug\FunctionCa
 D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\bin\Debug\FunctionCalc.exe
 D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\bin\Debug\FunctionCalc.pdb
 D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Debug\FunctionCalc.csproj.AssemblyReference.cache
-D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Debug\FunctionCalc.csproj.SuggestedBindingRedirects.cache
 D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Debug\FunctionCalc.Form1.resources
 D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Debug\FunctionCalc.Properties.Resources.resources
 D:\Faculdade\Projetos\Atv2ProgCom\FunctionCalc\FunctionCalc\obj\Debug\FunctionCalc.csproj.GenerateResource.cache
